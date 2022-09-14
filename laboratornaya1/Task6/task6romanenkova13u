@@ -1,0 +1,54 @@
+Script started on 2022-09-14 19:22:26+03:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="110" LINES="24"]
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/laboratornaya1/Task6[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/laboratornaya1/Task6[00m$ sudo groi[Kupadd student13u
+[?2004l[sudo] пароль для romanenkova13: 
+Попробуйте ещё раз.
+[sudo] пароль для romanenkova13: 
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/laboratornaya1/Task6[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/laboratornaya1/Task6[00m$ sudo useradd user1 -g student13u
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/laboratornaya1/Task6[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/laboratornaya1/Task6[00m$ sudo grasswd -a se[K[Kromanenkova13u
+[?2004l[sudo] пароль для romanenkova13: 
+sudo: grasswd: команда не найдена
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/laboratornaya1/Task6[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/laboratornaya1/Task6[00m$ sudo grasswd -a romanenkova13u student13u
+[?2004lsudo: grasswd: команда не найдена
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/laboratornaya1/Task6[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/laboratornaya1/Task6[00m$ sudo useradd user1 -g student13u
+[?2004luseradd: пользователь «user1» уже существует
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/laboratornaya1/Task6[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/laboratornaya1/Task6[00m$ chmod g+rw [K[7m~ [27m[1P~/romanenkova
+[?2004lchmod: пропущен операнд после «g+rw~/romanenkova»
+По команде «chmod --help» можно получить дополнительную информацию.
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/laboratornaya1/Task6[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/laboratornaya1/Task6[00m$ chmod g+rw~/romanenkova ~/romanenkova
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/laboratornaya1/Task6[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/laboratornaya1/Task6[00m$ chmod[K[K[K[K[Kc[Kc ../[K[K[K[Kd ../
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/laboratornaya1[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/laboratornaya1[00m$ cd ../
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova[00m$ cd ../
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ cd ../hmod g+rw ~/romanenkova
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ chmod g+rw ~/romanenkova/l[Klaboratornaya1/dir1/file1[K3.txt
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ sudo groupadd ra[K[Ktask6student13u
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ 
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ sudo useradd romanenkova-student13u
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ sudo useradd romanenkova-student13u[1P romanenkova-student13u[1P romanenkova-student13u[1P romanenkova-student13um romanenkova-student13uo romanenkova-student13ud romanenkova-student13u[C romanenkova-student13u- romanenkova-student13ua romanenkova-student13uG romanenkova-student13u[C romanenkova-student13ut romanenkova-student13ua romanenkova-student13us romanenkova-student13uk romanenkova-student13u6 romanenkova-student13us romanenkova-student13ut romanenkova-student13uu romanenkova-student13ud romanenkova-student13ue romanenkova-student13un romanenkova-student13ut romanenkova-student13u1 romanenkova-student13u3 romanenkova-student13uu romanenkova-student13u
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ chmod g
+[?2004lchmod: пропущен операнд после «g»
+По команде «chmod --help» можно получить дополнительную информацию.
+[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ chmod g+rw /task6student13u
+[?2004lchmod: невозможно получить доступ к '/task6student13u': Нет такого файла или каталога
+[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ chmod g+rw /task6student13u
+[?2004lchmod: невозможно получить доступ к '/task6student13u': Нет такого файла или каталога
+[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ sudo mkdir -p /users.[K/romanenkova-13[K[Kstudent13u
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ sudo cp -rY /etc[1P /etcT /etc[C[C[C[C[C/skel/users/romanenkova-student13u
+[?2004lcp: после '/etc/skel/users/romanenkova-student13u' пропущен операнд, задающий целевой файл
+По команде «cp --help» можно получить дополнительную информацию.
+[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ sudo cp -rT /etc/skel/users/romanenkova-student13u[C /users/romanenkova-student13u
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ sudo usermod -d /users/petrov=[K[K[K[K[K[K[Kromanenkova-student13u romanenkova-student13u
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ 
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ sudo chgrp task6student13u romanenjiv[K[K[Kkova
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ sudo chmog g+rw romanenkova
+[?2004lsudo: chmog: команда не найдена
+[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ sudo chmog g+rw romanenkova[1P[1@d[C[1@ 
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ 
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ 
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ 
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ 
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ ssh[K[K[Kssh lolaandreenkova
+[?2004lssh: Could not resolve hostname lolaandreenkova: Temporary failure in name resolution
+[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2022-09-14 20:16:55+03:00 [COMMAND_EXIT_CODE="255"]

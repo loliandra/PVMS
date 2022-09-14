@@ -1,0 +1,110 @@
+Script started on Wed Sep 14 12:01:39 2022
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sudo grop[Kupadd srudent[K[K[K[K[K[Ktudent13r
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sudo useradd user1-g student 13[K[K[K[Kt13r
+Usage: useradd [options] LOGIN
+       useradd -D
+       useradd -D [options]
+
+Options:
+  -b, --base-dir BASE_DIR       base directory for the home directory of the
+                                new account
+  -c, --comment COMMENT         GECOS field of the new account
+  -d, --home-dir HOME_DIR       home directory of the new account
+  -D, --defaults                print or change default useradd configuration
+  -e, --expiredate EXPIRE_DATE  expiration date of the new account
+  -f, --inactive INACTIVE       password inactivity period of the new account
+  -g, --gid GROUP               name or ID of the primary group of the new
+                                account
+  -G, --groups GROUPS           list of supplementary groups of the new
+                                account
+  -h, --help                    display this help message and exit
+  -k, --skel SKEL_DIR           use this alternative skeleton directory
+  -K, --key KEY=VALUE           override /etc/login.defs defaults
+  -l, --no-log-init             do not add the user to the lastlog and
+                                faillog databases
+  -m, --create-home             create the user's home directory
+  -M, --no-create-home          do not create the user's home directory
+  -N, --no-user-group           do not create a group with the same name as
+                                the user
+  -o, --non-unique              allow to create users with duplicate
+                                (non-unique) UID
+  -p, --password PASSWORD       encrypted password of the new account
+  -r, --system                  create a system account
+  -R, --root CHROOT_DIR         directory to chroot into
+  -s, --shell SHELL             login shell of the new account
+  -u, --uid UID                 user ID of the new account
+  -U, --user-group              create a group with the same name as the user
+  -Z, --selinux-user SEUSER     use a specific SEUSER for the SELinux user mapping
+
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sudo useradd user1-g student13r[1@ [1P[C[1@ 
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sudo useradd user1 -g student13r[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pgroupadd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kscp romanenkova/timelog3romanenkova13r.txt romanenkova13@192.168.56.103:romanenkova13@192.168..556.103[A]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kscp romanenkova/timelog3romanenkova13r.txt romanenkova13@192.168.56.103[2P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Khostname -I isudo nano sshd_config[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csh pi@192.168.56.101romanenkova13@192.168.56.103121[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cifconfig[Kssh romanenkova13@192.168.56.101213[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Ppi@192.168.56.101[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cudo nano sshd_config[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Phostname - i[1PIls[Kscp romanenkova/timelog3romanenkovar.txt romanenkova13@192.168.56.103[2@13[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kscp romanenkova/timelog3romanenkova13r.txt romanenkova13@192.168.56.103:romanenkova13@192.168..556.103[A]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m exit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo groupadd student13r[7@useradd user1-g[C[C[C[C[C[C[C[C[C[C[C[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kchmod g+rw ~ [K/romanenkova
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m chmod g+rw ~/romanenkova/dir1[K1/file3.txt
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sudo mkdir[K[K[K[K[Kgroupadd task6student13r
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sudo useradd romanenkova-student13r
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sudo useradd romanenkova-student13r[1P romanenkova-student13r[1P romanenkova-student13r[1P romanenkova-student13rm romanenkova-student13ro romanenkova-student13rd romanenkova-student13r[C romanenkova-student13r- romanenkova-student13ra romanenkova-student13rG romanenkova-student13r[C romanenkova-student13rt romanenkova-student13ra romanenkova-student13rs romanenkova-student13rk romanenkova-student13r6 romanenkova-student13rs romanenkova-student13rt romanenkova-student13ru romanenkova-student13rd romanenkova-student13re romanenkova-student13rn romanenkova-student13rt romanenkova-student13r1 romanenkova-student13r3 romanenkova-student13ru romanenkova-student13r
+usermod: group 'task6student13u' does not exist
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sudo usermod -aG task6student13u romanenkova-student13r[C[1P romanenkova-student13rr romanenkova-student13r
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m 
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sudo mkdir -p /users/romanenkova-student13r
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sudo [K[K [Ko cp -rT /etc/skel /users/petrov[K[K[K[K[K[Kromanenkova-13[K[Kstudent13r1 /users/romanenkova-student13r[1P /users/romanenkova-student13r
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m 
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sudo chgrp student13r romanenkova
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m sudo chmod g+rw romanenkova
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m scp romanenkova/* romanenkova13@192.168.56.103: romanenkova
+cp: omitting directory 'romanenkova/dir1'
+cp: 'romanenkova/dir2' and 'romanenkova/dir2' are the same file
+cp: 'romanenkova/rasp1.txt' and 'romanenkova/rasp1.txt' are the same file
+cp: 'romanenkova/rasp.txt' and 'romanenkova/rasp.txt' are the same file
+cp: 'romanenkova/task5romanenkova1310r' and 'romanenkova/task5romanenkova1310r' are the same file
+cp: 'romanenkova/timelog3romanenkova13r.txt' and 'romanenkova/timelog3romanenkova13r.txt' are the same file
+cp: 'romanenkova/timelog5romanenkova1310r' and 'romanenkova/timelog5romanenkova1310r' are the same file
+romanenkova13@192.168.56.103's password: 
+Permission denied, please try again.
+romanenkova13@192.168.56.103's password: 
+Permission denied, please try again.
+romanenkova13@192.168.56.103's password: 
+Permission denied (publickey,password).
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m 
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m scp romanenkova/* romanenkova13@192.168.56.103: romanenkova
+cp: omitting directory 'romanenkova/dir1'
+cp: 'romanenkova/dir2' and 'romanenkova/dir2' are the same file
+cp: 'romanenkova/rasp1.txt' and 'romanenkova/rasp1.txt' are the same file
+cp: 'romanenkova/rasp.txt' and 'romanenkova/rasp.txt' are the same file
+cp: 'romanenkova/task5romanenkova1310r' and 'romanenkova/task5romanenkova1310r' are the same file
+cp: 'romanenkova/task6romanenkovar' and 'romanenkova/task6romanenkovar' are the same file
+cp: 'romanenkova/timelog3romanenkova13r.txt' and 'romanenkova/timelog3romanenkova13r.txt' are the same file
+cp: 'romanenkova/timelog5romanenkova1310r' and 'romanenkova/timelog5romanenkova1310r' are the same file
+cp: 'romanenkova/timelog6romanenkovar' and 'romanenkova/timelog6romanenkovar' are the same file
+romanenkova13@192.168.56.103's password: 
+scp: .: not a regular file
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m scp romanenkova/* romanenkova13@192.168.56.103: romanenkova
+cp: omitting directory 'romanenkova/dir1'
+cp: 'romanenkova/dir2' and 'romanenkova/dir2' are the same file
+cp: 'romanenkova/rasp1.txt' and 'romanenkova/rasp1.txt' are the same file
+cp: 'romanenkova/rasp.txt' and 'romanenkova/rasp.txt' are the same file
+cp: 'romanenkova/task5romanenkova1310r' and 'romanenkova/task5romanenkova1310r' are the same file
+cp: 'romanenkova/task6romanenkovar' and 'romanenkova/task6romanenkovar' are the same file
+cp: 'romanenkova/timelog3romanenkova13r.txt' and 'romanenkova/timelog3romanenkova13r.txt' are the same file
+cp: 'romanenkova/timelog5romanenkova1310r' and 'romanenkova/timelog5romanenkova1310r' are the same file
+cp: 'romanenkova/timelog6romanenkovar' and 'romanenkova/timelog6romanenkovar' are the same file
+romanenkova13@192.168.56.103's password: 
+scp: .: not a regular file
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m scp romanenkova/* romanenkova13@192.168.56.103: romanenkova[1@ [C
+cp: omitting directory 'romanenkova/dir1'
+cp: 'romanenkova/dir2' and 'romanenkova/dir2' are the same file
+cp: 'romanenkova/rasp1.txt' and 'romanenkova/rasp1.txt' are the same file
+cp: 'romanenkova/rasp.txt' and 'romanenkova/rasp.txt' are the same file
+cp: 'romanenkova/task5romanenkova1310r' and 'romanenkova/task5romanenkova1310r' are the same file
+cp: 'romanenkova/task6romanenkovar' and 'romanenkova/task6romanenkovar' are the same file
+cp: 'romanenkova/timelog3romanenkova13r.txt' and 'romanenkova/timelog3romanenkova13r.txt' are the same file
+cp: 'romanenkova/timelog5romanenkova1310r' and 'romanenkova/timelog5romanenkova1310r' are the same file
+cp: 'romanenkova/timelog6romanenkovar' and 'romanenkova/timelog6romanenkovar' are the same file
+cp: cannot stat ':': No such file or directory
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m scp romanenkova/* romanenkova13@192.168.56.103 : romanenkova[1P[C[C[1Promanenkova
+romanenkova13@192.168.56.103's password: 
+romanenkova/dir1: not a regular file
+dir2                                                                        100%    0     0.0KB/s   00:00    
+rasp1.txt                                                                     0%    0     0.0KB/s   --:-- ETArasp1.txt                                                                   100%   21     0.0KB/s   00:00    
+rasp.txt                                                          
