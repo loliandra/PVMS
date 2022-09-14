@@ -1,0 +1,188 @@
+Script started on 2022-09-14 10:23:21+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="114" LINES="24"]
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS[00m$ mkdir dir1/dir2/dir3 -p
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS[00m$ mkdir dir1/dir2/dir3 -p[1P[1@4[C[C[C[C[C[1P -p5 -p
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS[00m$ cd dir1
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1[00m$ ls -R
+[?2004l.:
+[0m[01;34mdir2[0m  [01;34mdir4[0m
+
+./dir2:
+[01;34mdir3[0m
+
+./dir2/dir3:
+
+./dir4:
+[01;34mdir5[0m
+
+./dir4/dir5:
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1[00m$ cd dir2
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1/dir2[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1/dir2[00m$ cp ../file1.txt
+[?2004lcp: после '../file1.txt' пропущен операнд, задающий целевой файл
+По команде «cp --help» можно получить дополнительную информацию.
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1/dir2[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1/dir2[00m$ cp ../file1.txt file2.txt
+[?2004lcp: не удалось выполнить stat для '../file1.txt': Нет такого файла или каталога
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1/dir2[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1/dir2[00m$ touch file1.txt
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1/dir2[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1/dir2[00m$ cd dir 3
+[?2004lbash: cd: слишком много аргументов
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1/dir2[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1/dir2[00m$ cd dir3
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1/dir2/dir3[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1/dir2/dir3[00m$ cd dir3 3touch file1.txt[1P.txt2.txt
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1/dir2/dir3[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1/dir2/dir3[00m$ cd
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ cdc[K[7mromanenkova/PVMS/dir1[27mromanenkova/PVMS/dir1 [1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K/dir4
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1/dir4[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1/dir4[00m$ touch file[K[K[K[K[K[K[K[K[K[Kcd dir 5
+[?2004lbash: cd: слишком много аргументов
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1/dir4[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1/dir4[00m$ cd dir5
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1/dir4/dir5[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1/dir4/dir5[00m$ touch file3.txt
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1/dir4/dir5[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1/dir4/dir5[00m$ ls
+[?2004lfile3.txt
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1/dir4/dir5[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1/dir4/dir5[00m$ cd dir4
+[?2004lbash: cd: dir4: Нет такого файла или каталога
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1/dir4/dir5[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1/dir4/dir5[00m$ cd
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ cd [7mromanenkova/PVMS/dir1/dir4[27mromanenkova/PVMS/dir1/dir4
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1/dir4[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1/dir4[00m$ touch file4.txt
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1/dir4[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1/dir4[00m$ c[Kcd[K[Kls -R
+[?2004l.:
+[0m[01;34mdir5[0m  file4.txt
+
+./dir5:
+file3.txt
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1/dir4[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1/dir4[00m$ cd [7mromanenkova/PVMS/dir1[27mromanenkova/PVMS/dir1
+[?2004lbash: cd: romanenkova/PVMS/dir1: Нет такого файла или каталога
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1/dir4[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1/dir4[00m$ cd
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ cd romanenkova/PVMS/dir1
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1[00m$ ls -R
+[?2004l.:
+[0m[01;34mdir2[0m  [01;34mdir4[0m
+
+./dir2:
+[01;34mdir3[0m  file1.txt
+
+./dir2/dir3:
+file2.txt
+
+./dir4:
+[01;34mdir5[0m  file4.txt
+
+./dir4/dir5:
+file3.txt
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1[00m$ св [K[K[Kcd mPVMS
+[?2004lbash: cd: mPVMS: Нет такого файла или каталога
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1[00m$ cd mPVMS[1PPVMS
+[?2004lbash: cd: PVMS: Нет такого файла или каталога
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1[00m$ cd
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ cd romanenkova/pvms
+[?2004lbash: cd: romanenkova/pvms: Нет такого файла или каталога
+[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ cd romanenkova/pvms[K[K[K[KPVMS
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS[00m$ ln dir1/dir2/[K[K[Kr3/dir4[1P/dir44/dir4[C[C[C[C[C[K5[1P/dir52/dir5[C[C[C[C[C[K[K[K[Kfike[K[Kle2.txt dir [K3
+[?2004lln: не удалось получить доступ к 'dir1/dir2/file2.txt': Нет такого файла или каталога
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS[00m$ ln dir1/dir2/file2.txt dir3[1@d[1@i[1@r[1@3[1@/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K2
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS[00m$ ls -la
+[?2004lитого 32
+drwxrwxr-x 5 romanenkova13 romanenkova13 4096 сен 14 11:02 [0m[01;34m.[0m
+drwxrwxr-x 3 romanenkova13 romanenkova13 4096 сен 14 08:54 [01;34m..[0m
+drwxrwxr-x 4 romanenkova13 romanenkova13 4096 сен 14 10:24 [01;34mdir1[0m
+-rw-rw-r-- 2 romanenkova13 romanenkova13    0 сен 14 10:43 dir2
+drwxrwxr-x 8 romanenkova13 romanenkova13 4096 сен 14 09:53 [01;34m.git[0m
+drwxrwxr-x 4 romanenkova13 romanenkova13 4096 сен 14 08:54 [01;34mlaboratornaya1[0m
+-rw-rw-r-- 1 romanenkova13 romanenkova13    6 сен 14 08:37 README.md
+-rw-rw-r-- 1 romanenkova13 romanenkova13 4096 сен 14 10:45 task5romanenkova1310u
+-rw-rw-r-- 1 romanenkova13 romanenkova13 4096 сен 14 10:47 timelog5romanenkova1310u
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS[00m$ cd dir [K1
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1[00m$ cd dir1[1Pls -la
+[?2004lитого 16
+drwxrwxr-x 4 romanenkova13 romanenkova13 4096 сен 14 10:24 [0m[01;34m.[0m
+drwxrwxr-x 5 romanenkova13 romanenkova13 4096 сен 14 11:02 [01;34m..[0m
+drwxrwxr-x 3 romanenkova13 romanenkova13 4096 сен 14 10:43 [01;34mdir2[0m
+drwxrwxr-x 3 romanenkova13 romanenkova13 4096 сен 14 10:45 [01;34mdir4[0m
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1[00m$ ls -a
+[?2004l[0m[01;34m.[0m  [01;34m..[0m  [01;34mdir2[0m  [01;34mdir4[0m
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1[00m$ cd ../
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS[00m$ ln dir1/dir4/dir5/file3.txt dir1
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS[00m$ cd dir1
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1[00m$ ls -R
+[?2004l.:
+[0m[01;34mdir2[0m  [01;34mdir4[0m  file3.txt
+
+./dir2:
+[01;34mdir3[0m  file1.txt
+
+./dir2/dir3:
+file2.txt
+
+./dir4:
+[01;34mdir5[0m  file4.txt
+
+./dir4/dir5:
+file3.txt
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1[00m$ cd ../
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS[00m$ ln -s dir1/dir2/[1P/4/[Cdir5/file [K3.txt dir1/dir3[K4
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS[00m$ cd dir1
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1[00m$ ls -R
+[?2004l.:
+[0m[01;34mdir2[0m  [01;34mdir4[0m  file3.txt
+
+./dir2:
+[01;34mdir3[0m  file1.txt
+
+./dir2/dir3:
+file2.txt
+
+./dir4:
+[01;34mdir5[0m  [40;31;01mfile3.txt[0m  file4.txt
+
+./dir4/dir5:
+file3.txt
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1[00m$  cat file3.txt
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1[00m$ vi file3.txt
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"file3.txt" 0 lines, 0 bytes[2;1H[94m~                                                                                                                 [3;1H~                                                                                                                 [4;1H~                                                                                                                 [5;1H~                                                                                                                 [6;1H~                                                                                                                 [7;1H~                                                                                                                 [8;1H~                                                                                                                 [9;1H~                                                                                                                 [10;1H~                                                                                                                 [11;1H~                                                                                                                 [12;1H~                                                                                                                 [13;1H~                                                                                                                 [14;1H~                                                                                                                 [15;1H~                                                                                                                 [16;1H~                                                                                                                 [17;1H~                                                                                                                 [18;1H~                                                                                                                 [19;1H~                                                                                                                 [20;1H~                                                                                                                 [21;1H~                                                                                                                 [22;1H~                                                                                                                 [23;1H~                                                                                                                 [1;1H[?25h[24;1H
+[m[?2004l[?1l>[>4;m[?1049l[23;0;0t
+[1]+  Остановлен    vi file3.txt
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1[00m$ cd dir [K4
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1/dir4[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1/dir4[00m$ cd dir4vi file3.txt[7Pls -Rcd dir1ln -s dir1/dir4/dir5/file3.txt dir1/dir4cd ../[K[1Pls -Rcd dir1[2Pls -Rcd ../ln -s dir1/dir4/dir5/file3.txt dir1/dir4cd dir1[K[2Pls -Rvi file3.txt[5Pcd dir4[Kcat file3,[K.txt
+[?2004lcat: file3.txt: Нет такого файла или каталога
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1/dir4[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1/dir4[00m$ vi file3.r[Ktxt
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"file3.txt" [New File][2;1H[94m~                                                                                                                 [3;1H~                                                                                                                 [4;1H~                                                                                                                 [5;1H~                                                                                                                 [6;1H~                                                                                                                 [7;1H~                                                                                                                 [8;1H~                                                                                                                 [9;1H~                                                                                                                 [10;1H~                                                                                                                 [11;1H~                                                                                                                 [12;1H~                                                                                                                 [13;1H~                                                                                                                 [14;1H~                                                                                                                 [15;1H~                                                                                                                 [16;1H~                                                                                                                 [17;1H~                                                                                                                 [18;1H~                                                                                                                 [19;1H~                                                                                                                 [20;1H~                                                                                                                 [21;1H~                                                                                                                 [22;1H~                                                                                                                 [23;1H~                                                                                                                 [1;1H[?25h[24;1H
+[m[?2004l[?1l>[>4;m[?1049l[23;0;0t
+[2]+  Остановлен    vi file3.txt
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1/dir4[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1/dir4[00m$ ls -ls[Ka
+[?2004lитого 12
+drwxrwxr-x 3 romanenkova13 romanenkova13 4096 сен 14 11:07 [0m[01;34m.[0m
+drwxrwxr-x 4 romanenkova13 romanenkova13 4096 сен 14 11:10 [01;34m..[0m
+drwxrwxr-x 2 romanenkova13 romanenkova13 4096 сен 14 10:44 [01;34mdir5[0m
+lrwxrwxrwx 1 romanenkova13 romanenkova13   24 сен 14 11:07 [40;31;01mfile3.txt[0m -> [40;31;01mdir1/dir4/dir5/file3.txt[0m
+-rw-rw-r-- 1 romanenkova13 romanenkova13    0 сен 14 10:45 file4.txt
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1/dir4[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1/dir4[00m$ unlinkl[K file3.txt
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1/dir4[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1/dir4[00m$ ls -la
+[?2004lитого 12
+drwxrwxr-x 3 romanenkova13 romanenkova13 4096 сен 14 11:14 [0m[01;34m.[0m
+drwxrwxr-x 4 romanenkova13 romanenkova13 4096 сен 14 11:10 [01;34m..[0m
+drwxrwxr-x 2 romanenkova13 romanenkova13 4096 сен 14 10:44 [01;34mdir5[0m
+-rw-rw-r-- 1 romanenkova13 romanenkova13    0 сен 14 10:45 file4.txt
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1/dir4[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1/dir4[00m$ unloi[K[Kink file.[K3.txt
+[?2004lunlink: невозможно удалить ссылку 'file3.txt': Нет такого файла или каталога
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1/dir4[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1/dir4[00m$ rm-[K -r dir[K[K[K[K[K[K[K[K[Kcd ../
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1[00m$ rm -r dir4
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1[00m$ ls -R
+[?2004l.:
+[0m[01;34mdir2[0m  file3.txt
+
+./dir2:
+[01;34mdir3[0m  file1.txt
+
+./dir2/dir3:
+file2.txt
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1[00m$ script
+[?2004lScript started, output log file is 'typescript'.
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1[00m$ exit
+[?2004lexit
+Есть остановленные задания.
+[?2004h]0;romanenkova13@ubuntu: ~/romanenkova/PVMS/dir1[01;32mromanenkova13@ubuntu[00m:[01;34m~/romanenkova/PVMS/dir1[00m$ exit
+[?2004lexit
+[?25h[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?12h[?12l[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                                                                 [3;1H~                                                                                                                 [4;1H~                                                                                                                 [5;1H~                                                                                                                 [6;1H~                                                                                                                 [7;1H~                                                                                                                 [8;1H~                                                                                                                 [9;1H~                                                                                                                 [10;1H~                                                                                                                 [11;1H~                                                                                                                 [12;1H~                                                                                                                 [13;1H~                                                                                                                 [14;1H~                                                                                                                 [15;1H~                                                                                                                 [16;1H~                                                                                                                 [17;1H~                                                                                                                 [18;1H~                                                                                                                 [19;1H~                                                                                                                 [20;1H~                                                                                                                 [21;1H~                                                                                                                 [22;1H~                                                                                                                 [23;1H~                                                                                                                 [1;1H[?25h[24;1H[m[?2004l[?1l>[>4;m[?1049l[23;0;0tVim: Caught deadly signal HUP
+Vim: Finished.
+[24;1H[23;2t[23;1t[?25h[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?12h[?12l[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                                                                 [3;1H~                                                                                                                 [4;1H~                                                                                                                 [5;1H~                                                                                                                 [6;1H~                                                                                                                 [7;1H~                                                                                                                 [8;1H~                                                                                                                 [9;1H~                                                                                                                 [10;1H~                                                                                                                 [11;1H~                                                                                                                 [12;1H~                                                                                                                 [13;1H~                                                                                                                 [14;1H~                                                                                                                 [15;1H~                                                                                                                 [16;1H~                                                                                                                 [17;1H~                                                                                                                 [18;1H~                                                                                                                 [19;1H~                                                                                                                 [20;1H~                                                                                                                 [21;1H~                                                                                                                 [22;1H~                                                                                                                 [23;1H~                                                                                                                 [1;1H[?25h[24;1H[m[?2004l[?1l>[>4;m[?1049l[23;0;0tVim: Caught deadly signal HUP
+Vim: Finished.
+[24;1H[23;2t[23;1t
+Script done on 2022-09-14 11:15:55+03:00 [COMMAND_EXIT_CODE="1"]
