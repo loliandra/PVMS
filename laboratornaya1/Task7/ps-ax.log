@@ -1,0 +1,99 @@
+  PID TTY      STAT   TIME COMMAND
+    1 ?        Ss     0:01 /sbin/init splash
+    2 ?        S      0:00 [kthreadd]
+    3 ?        S      0:00 [ksoftirqd/0]
+    5 ?        S<     0:00 [kworker/0:0H]
+    6 ?        S      0:00 [kworker/u2:0]
+    7 ?        S      0:00 [rcu_sched]
+    8 ?        S      0:00 [rcu_bh]
+    9 ?        S      0:00 [migration/0]
+   10 ?        S      0:00 [watchdog/0]
+   11 ?        S<     0:00 [khelper]
+   12 ?        S      0:00 [kdevtmpfs]
+   13 ?        S<     0:00 [netns]
+   14 ?        S      0:00 [khungtaskd]
+   15 ?        S<     0:00 [writeback]
+   16 ?        SN     0:00 [ksmd]
+   17 ?        SN     0:00 [khugepaged]
+   18 ?        S<     0:00 [crypto]
+   19 ?        S<     0:00 [kintegrityd]
+   20 ?        S<     0:00 [bioset]
+   21 ?        S<     0:00 [kblockd]
+   23 ?        S      0:00 [kswapd0]
+   24 ?        S<     0:00 [vmstat]
+   25 ?        S      0:00 [fsnotify_mark]
+   31 ?        S<     0:00 [kthrotld]
+   32 ?        S<     0:00 [ipv6_addrconf]
+   33 ?        S<     0:00 [deferwq]
+   67 ?        S      0:00 [khubd]
+   68 ?        S<     0:00 [ata_sff]
+   69 ?        S<     0:00 [ttm_swap]
+   70 ?        S<     0:00 [kpsmoused]
+   73 ?        S      0:00 [scsi_eh_0]
+   74 ?        S<     0:00 [scsi_tmf_0]
+   75 ?        S      0:00 [scsi_eh_1]
+   76 ?        S      0:00 [kworker/u2:2]
+   77 ?        S<     0:00 [scsi_tmf_1]
+   78 ?        S      0:00 [scsi_eh_2]
+   79 ?        S<     0:00 [scsi_tmf_2]
+   84 ?        S<     0:00 [kworker/0:1H]
+  114 ?        S      0:00 [jbd2/sda1-8]
+  115 ?        S<     0:00 [ext4-rsv-conver]
+  149 ?        S      0:00 [kauditd]
+  160 ?        Ss     0:00 /lib/systemd/systemd-journald
+  171 ?        Ss     0:00 /lib/systemd/systemd-udevd
+  495 ?        Ss     0:00 /usr/sbin/cron -f
+  497 ?        Ss     0:00 /lib/systemd/systemd-logind
+  501 ?        Ss     0:00 avahi-daemon: running [raspberry.local]
+  502 ?        Ss     0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+  513 ?        S<     0:00 [cfg80211]
+  515 ?        Ss     0:00 /sbin/dhcpcd -q -b
+  527 ?        S      0:00 avahi-daemon: chroot helper
+  529 ?        Ss     0:00 /usr/sbin/thd --daemon --triggers /etc/triggerhappy/triggers.d/ --socket /var/run/thd.socket --pidfile /var/run/thd.pid --user nobody /dev/input/event0 /dev/input/event1 /dev/input/event2 /dev/input/event3 /dev/input/event4 /dev/input/event5 /dev/input/event6
+  547 ?        Ssl    0:00 /usr/sbin/rsyslogd -n
+  548 ?        Ss     0:00 /usr/sbin/acpid
+  549 ?        Ss     0:00 /usr/sbin/sshd -D
+  561 ?        Ssl    0:00 /usr/sbin/lightdm
+  567 tty1     Ss     0:00 /bin/login -f   
+  576 ?        Ss     0:00 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 106:111
+  577 ?        S      0:00 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 106:111
+  580 tty7     Ss+    0:04 /usr/bin/X :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+  585 ?        Ss     0:00 /lib/systemd/systemd --user
+  587 ?        S      0:00 (sd-pam)         
+  589 tty1     S+     0:00 -bash
+  613 ?        Sl     0:00 lightdm --session-child 13 16
+  618 ?        Ssl    0:00 /usr/bin/lxsession -s LXDE-pi -e LXDE
+  651 ?        Ss     0:00 /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session x-session-manager
+  654 ?        S      0:00 /usr/bin/dbus-launch --exit-with-session x-session-manager
+  655 ?        Ss     0:00 /usr/bin/dbus-daemon --fork --print-pid 4 --print-address 6 --session
+  661 ?        Sl     0:00 /usr/lib/gvfs/gvfsd
+  665 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+  675 ?        S      0:00 openbox --config-file /home/pi/.config/openbox/lxde-pi-rc.xml
+  679 ?        Sl     0:00 lxpolkit
+  681 ?        Sl     0:06 lxpanel --profile LXDE-pi
+  682 ?        Sl     0:02 pcmanfm --desktop --profile LXDE-pi
+  689 ?        Ss     0:00 /usr/bin/ssh-agent -s
+  700 ?        Ssl    0:00 /usr/lib/policykit-1/polkitd --no-debug
+  710 ?        Sl     0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+  720 ?        Ssl    0:00 /usr/lib/udisks2/udisksd --no-debug
+  729 ?        SNsl   0:00 /usr/lib/rtkit/rtkit-daemon
+  734 ?        Sl     0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+  740 ?        Sl     0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+  743 ?        Ss     0:00 /usr/lib/bluetooth/bluetoothd
+  748 ?        Sl     0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+  757 ?        Sl     0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+  761 ?        S      0:00 /bin/sh /usr/bin/start-pulseaudio-x11
+  763 ?        S      0:00 /usr/bin/xprop -root -spy
+  768 ?        Ssl    0:00 /usr/lib/menu-cache/menu-cached /tmp/.menu-cached-:0-pi
+  802 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.1 /org/gtk/gvfs/exec_spaw/0
+ 1068 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-metadata
+ 1528 ?        S      0:00 [kworker/0:0]
+ 1555 ?        S      0:00 [kworker/0:2]
+ 1564 ?        S      0:00 [kworker/0:1]
+ 1565 ?        Ss     0:00 sshd: pi [priv]     
+ 1567 ?        S      0:00 sshd: pi@pts/0      
+ 1568 pts/0    Ss     0:00 -bash
+ 1586 pts/0    S+     0:00 script task7romanenkova13r -ttimelog7romanenkova13r.txt
+ 1587 pts/0    S+     0:00 script task7romanenkova13r -ttimelog7romanenkova13r.txt
+ 1588 pts/1    Ss     0:00 bash -i
+ 1615 pts/1    R+     0:00 ps -ax
