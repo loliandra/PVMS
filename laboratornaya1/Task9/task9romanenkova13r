@@ -1,0 +1,83 @@
+Script started on Thu 15 Sep 2022 12:41:26 BST
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m mk[K[Kcd romanenkova
+]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m mkdir rc[Ksync-backuo[Kp
+]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m rsync-backup/ romanenkovs[Ka13@192.168.56.103:romanenk ova/rsync-bav[Kckup
+bash: rsync-backup/: Is a directory
+]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m rsync-backup/ romanenkova13@192.168.56.103:romanenkoova/rsync-backup[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbackup/ romanenkova13@192.168.56.103:romanenkov[1Pa/rsync-backup[A]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m [C[C[C[C[C backup/ romanenkova13@192.168.56.103:romanenkova/rsync-backup[A]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m [C[C[C[C[C[C-backup/ romanenkova13@192.168.56.103:romanenkova/rsync-backup[A]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m [C[C[C[C[C[C[Cabackup/ romanenkova13@192.168.56.103:romanenkova/rsync-backup[A]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m [C[C[C[C[C[C[C[Cvbackup/ romanenkova13@192.168.56.103:romanenkova/rsync-backup[A]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m [C[C[C[C[C[C[C[C[Czbackup/ romanenkova13@192.168.56.103:romanenkova/rsync-backup[A]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m [C[C[C[C[C[C[C[C[C[Chbackup/ romanenkova13@192.168.56.103:romanenkova/rsync-backup[A]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m [C[C[C[C[C[C[C[C[C[C[Cebackup/ romanenkova13@192.168.56.103:romanenkova/rsync-backup[A]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m [C[C[C[C[C[C[C[C[C[C[C[C backup/ romanenkova13@192.168.56.103:romanenkova/rsync-backup[A]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m [C[C[C[C[C[C[C[C[C[C[C[C[Csbackup/ romanenkova13@192.168.56.103:romanenkova/rsync-backup[A]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[Csbackup/ romanenkova13@192.168.56.103:romanenkova/rsync-backup[A]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chbackup/ romanenkova13@192.168.56.103:romanenkova/rsync-backup[A]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C backup/ romanenkova13@192.168.56.103:romanenkova/rsync-backup[A]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crbackup/ romanenkova13@192.168.56.103:romanenkova/rsync-backup[A]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csbackup/ romanenkova13@192.168.56.103:romanenkova/rsync-backup[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cybackup/ romanenkova13@192.168.56.103:romanenkova/rsync-backup[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnbackup/ romanenkova13@192.168.56.103:romanenkova/rsync-backup[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccbackup/ romanenkova13@192.168.56.103:romanenkova/rsync-backup[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-backup/ romanenkova13@192.168.56.103:romanenkova/rsync-backup[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+romanenkova13@192.168.56.103's password: 
+sending incremental file list
+created directory romanenkova/rsync-backup
+./
+rasp1.txt
+
+sent 143 bytes  received 85 bytes  50.67 bytes/sec
+total size is 21  speedup is 0.09
+]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m scp petrov/* [K[K[K[K[K[K[K[K[Kromanenkova/* romanenkova13@192.168.56.103:ro,[Kma nenkova
+romanenkova13@192.168.56.103's password: 
+Permission denied, please try again.
+romanenkova13@192.168.56.103's password: 
+Permission denied, please try again.
+romanenkova13@192.168.56.103's password: 
+Permission denied (publickey,password).
+lost connection
+]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m scp romanenkova/* romanenkova13@192.168.56.103:romannenkova
+romanenkova13@192.168.56.103's password: 
+romanenkova/*: No such file or directory
+]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m scp romanenkova/* romanenkova13@192.168.56.103:romannenkova/
+romanenkova13@192.168.56.103's password: 
+Permission denied, please try again.
+romanenkova13@192.168.56.103's password: 
+Permission denied, please try again.
+romanenkova13@192.168.56.103's password: 
+Permission denied (publickey,password).
+lost connection
+]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m 
+]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m 
+]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m scp romanenkova/* romanenkova13@192.168.56.103:romannenkova/
+romanenkova13@192.168.56.103's password: 
+Permission denied, please try again.
+romanenkova13@192.168.56.103's password: 
+Permission denied, please try again.
+romanenkova13@192.168.56.103's password: 
+Permission denied (publickey,password).
+lost connection
+]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m 
+]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m 
+]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m scp romanenkova/* romanenkova13@192.168.56.103:romannenkova/[K
+romanenkova13@192.168.56.103's password: 
+romanenkova/*: No such file or directory
+]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m [K]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m scp romanenkova/* romanenkova13@192.168.56.103:romanenkova[Ka
+romanenkova13@192.168.56.103's password: 
+romanenkova/*: No such file or directory
+]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m scp romanenkova/* romanenkova13@192.168.56.103:romanenkova/rsyns -backup
+romanenkova13@192.168.56.103's password: 
+romanenkova/*: No such file or directory
+]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m scp romanenkova/* romanenkova13@192.168.56.103:romanenkova/rsyns--backup[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-b[1Packup[A]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc-backup
+romanenkova13@192.168.56.103's password: 
+romanenkova/*: No such file or directory
+]0;pi@raspberry: ~/romanenkova[01;32mpi@raspberry[00m:[01;34m~/romanenkova $[00m cs[Kd
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cdscp romanenkova/* romanenkova13@192.168.56.103:romanenkova/rsync-backup[K[K[K[K[K[K[K[K[K[K[K[K[K
+romanenkova13@192.168.56.103's password: 
+archive.tar                                                  0%    0     0.0KB/s   --:-- ETAarchive.tar                                                100%   15MB  15.5MB/s   00:01    
+romanenkova/dir1: not a regular file
+dir2                                                       100%    0     0.0KB/s   00:00    
+ps-a.log                                                     0%    0     0.0KB/s   --:-- ETAps-a.log                                                   100%  146     0.1KB/s   00:00    
+ps-ax.log                                                    0%    0     0.0KB/s   --:-- ETAps-ax.log                                                  100% 5338     5.2KB/s   00:00    
+ps-e.log                                                     0%    0     0.0KB/s   --:-- ETAps-e.log                                                   100% 3333     3.3KB/s   00:00    
+ps-x.log                                                     0%    0     0.0KB/s   --:-- ETAps-x.log                                                   100% 1946     1.9KB/s   00:00    
+romanenkova13@192.168.56.103                               100%    0     0.0KB/s   00:00    
+romanenkova/rsync-backup: not a regular file
+task5romanenkova1310r                                        0%    0     0.0KB/s   --:-- ETAtask5romanenkova1310r                                      100%   20KB  20.0KB/s   00:00    
+task6romanenkovar                                            0%    0     0.0KB/s   --:-- ETAtask6romanenkovar                                          100%   12KB  12.0KB/s   00:00    
+task7romanenkova13r                                          0%    0     0.0KB/s   --:-- ETAtask7romanenkova13r                                        100%  132KB 132.0KB/s   00:00    
+timelog3romanenkova13r.txt                                   0%    0     0.0KB/s   --:-- ETAtimelog3romanenkova13r.txt                                 100% 8192     8.0KB/s   00:00    
+timelog5romanenkova1310r                                     0%    0     0.0KB/s   --:-- ETAtimelog5romanenkova1310r                                   100% 8192     8.0KB/s   00:00    
+timelog6romanenkovar                                         0%    0     0.0KB/s   --:-- ETAtimelog6romanenkovar                                       100% 8192     8.0KB/s   00:00    
+timelog7romanenkova13r.txt                                   0%    0     0.0KB/s   --:-- ETAtimelog7romanenkova13r.txt                                 100%   12KB  12.0KB/s   00:00    
+winrar                                                     100%    0     0.0KB/s   00:00    
+winrar2                                                    100%    0     0.0KB/s   00:00    
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m exit
+exit
+
+Script done on Thu 15 Sep 2022 13:12:48 BST
