@@ -1,0 +1,67 @@
+Script started on 2022-09-15 07:56:30+03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="105" LINES="24"]
+[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ 
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ tar -cvf archive.tar r[KRomanenkova[K[K[K[K[K[K[K[K[K[K[Kromanenkova
+[?2004lromanenkova/
+romanenkova/timelog3romanenkova13u.txt
+romanenkova/typescript
+romanenkova/README.md
+romanenkova/timelog6romanenkovar
+romanenkova/rasp.txt
+romanenkova/rasp1.txt
+romanenkova/dir2
+romanenkova/timelog3romanenkova13r.txt
+romanenkova/task6romanenkovar
+romanenkova/timelog5romanenkova1310r
+romanenkova/romanenkova13@192.168.56.103
+romanenkova/task5romanenkova1310r
+romanenkova/laboratornaya1/
+romanenkova/laboratornaya1/Task3/
+romanenkova/laboratornaya1/Task3/timelog3romanenkova13u.txt
+romanenkova/laboratornaya1/Task3/timelog3romanenkova13r.txt
+romanenkova/laboratornaya1/Task6/
+romanenkova/laboratornaya1/Task6/timelog6romanenkova13u
+romanenkova/laboratornaya1/Task6/timelog6romanenkovar
+romanenkova/laboratornaya1/Task6/task6romanenkovar
+romanenkova/laboratornaya1/Task6/task6romanenkova13u
+romanenkova/laboratornaya1/Task5/
+romanenkova/laboratornaya1/Task5/task5romanenkova1310u
+romanenkova/laboratornaya1/Task5/timelog5romanenkova1310u
+romanenkova/laboratornaya1/Task5/timelog5romanenkova1310r
+romanenkova/laboratornaya1/Task5/task5romanenkova1310r
+romanenkova/laboratornaya1/Task7/
+romanenkova/laboratornaya1/Task7/lsof_romanenkova_lola.log
+romanenkova/laboratornaya1/Task7/timelog7romanenkova13r.txt
+romanenkova/laboratornaya1/Task7/ps-x.log
+romanenkova/laboratornaya1/Task7/vmstat_romanenkova_lola.log
+romanenkova/laboratornaya1/Task7/ps-a.log
+romanenkova/laboratornaya1/Task7/ps-e.log
+romanenkova/laboratornaya1/Task7/task7romanenkova13r
+romanenkova/laboratornaya1/Task7/ps-ax.log
+romanenkova/laboratornaya1/dir1/
+romanenkova/laboratornaya1/dir1/file3.txt
+romanenkova/laboratornaya1/dir1/typescript
+romanenkova/laboratornaya1/dir1/winrar2.gz
+romanenkova/laboratornaya1/dir1/dir2/
+romanenkova/laboratornaya1/dir1/dir2/file1.txt
+romanenkova/laboratornaya1/dir1/dir2/dir3/
+romanenkova/laboratornaya1/dir1/dir2/dir3/file2.txt
+romanenkova/laboratornaya1/dir1/winrar.gz
+romanenkova/laboratornaya1/dir1/file2.txt
+romanenkova/laboratornaya1/Task4/
+romanenkova/laboratornaya1/Task4/task4Romanenkova13u
+romanenkova/laboratornaya1/Task4/timelog4Romanenkova13u
+[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ 
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ gzip archive.tar
+[?2004l[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ sudo scp archiva.tar [K.gz[Kx[Kz pi@192.168.56.101
+[?2004l[sudo] пароль для romanenkova13: 
+cp: не удалось выполнить stat для 'archiva.tar.gz': Нет такого файла или каталога
+[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ sudo scp archiva.tar.gz pi@192.168.56.101:romanenkova/
+[?2004lpi@192.168.56.101's password: 
+archiva.tar.gz: No such file or directory
+[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ sudo scp archiva.tar.gz pi@192.168.56.101:romanenkova/[C[1P[1@e
+[?2004lpi@192.168.56.101's password: 
+archive.tar.gz                                                           0%    0     0.0KB/s   --:-- ETAarchive.tar.gz                                                         100% 1479KB  24.9MB/s   00:00    
+[?2004h]0;romanenkova13@ubuntu: ~[01;32mromanenkova13@ubuntu[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2022-09-15 07:59:51+03:00 [COMMAND_EXIT_CODE="0"]
